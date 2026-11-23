@@ -5,3 +5,25 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 0 10vw;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
