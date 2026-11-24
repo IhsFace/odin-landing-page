@@ -17,6 +17,14 @@ main {
   flex: 1;
 }
 
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -110,4 +118,18 @@ main {
   text-align: center;
   color: #1f2937;
   margin-top: 8px;
+}
+
+.quote-section {
+  display: flex;
+  background-color: #e5e7eb;
+  padding: 128px 25vw;
+}
+
+.quote-caption {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: right;
+  margin-right: 10%;
 }
