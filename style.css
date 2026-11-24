@@ -88,7 +88,7 @@ blockquote {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 0 128px 0;
+  padding: 32px 15vw 128px 15vw;
 }
 
 .information-heading {
@@ -100,6 +100,7 @@ blockquote {
 .information-cards {
   display: flex;
   gap: 64px;
+  flex-wrap: wrap;
 }
 
 .information-card {
