@@ -17,6 +17,15 @@ main {
   flex: 1;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 32px;
+}
+
 button {
   background-color: #3882f6;
   padding: 8px 32px;
